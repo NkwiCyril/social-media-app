@@ -9,7 +9,6 @@ import {
 import SearchInput from "./SearchInput";
 import IconButton from "../IconButton";
 import User from "../../assets/images/Chiron.jpg";
-import RoundedButton from "../RoundedButton";
 
 function Navbar() {
   return (
