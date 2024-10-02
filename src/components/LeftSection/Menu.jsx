@@ -88,6 +88,7 @@ function Menu() {
         image={pageItem.image}
         title={pageItem.title}
         alt={pageItem.alt}
+        key={pageItems.indexOf(pageItem)}
       />
     );
   });
