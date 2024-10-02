@@ -2,7 +2,7 @@ import React from "react";
 
 function IconButton({ content }) {
   return (
-    <div className="text-gray-200 hover:text-white bg-darkSecondary p-3 rounded-md">
+    <div className="text-gray-200 bg-darkSecondary p-3 rounded-md hover:text-accent">
       {content}
     </div>
   );
