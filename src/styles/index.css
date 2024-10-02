@@ -4,3 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body {
+  @apply bg-background text-textColor; 
+}
+
