@@ -67,6 +67,11 @@ function Menu() {
       title: "Mountaineering",
       alt: "Mountaineering",
     },
+    {
+      image: mountain1,
+      title: "Mountain Cabins",
+      alt: "Mountain Cabins",
+    },
   ];
 
   const renderMenuItems = menuItems.map((menuItem) => {

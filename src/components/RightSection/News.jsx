@@ -18,12 +18,12 @@ function News() {
       image: mountain2,
       timeSincePosted: "2hr",
     },
-    {
-      id: 3,
-      title: "The best weather to go hiking",
-      image: mountain4,
-      timeSincePosted: "2hr",
-    },
+    // {
+    //   id: 3,
+    //   title: "This is by far the best weather to go hiking",
+    //   image: mountain4,
+    //   timeSincePosted: "2hr",
+    // },
   ];
 
   const renderNews = news.map((item) => {
