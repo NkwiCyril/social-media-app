@@ -1,10 +1,10 @@
-import userImage1 from "../../assets/images/mc.jpeg";
-import userImage2 from "../../assets/images/ff.png";
-import userImage3 from "../../assets/images/nc.jpeg";
-import userImage4 from "../../assets/images/ns.png";
-import userImage5 from "../../assets/images/ab.jpeg";
-import userImage6 from "../../assets/images/al.jpeg";
-import userImage7 from "../../assets/images/kds.jpeg";
+import userImage1 from "../assets/images/mc.jpeg";
+import userImage2 from "../assets/images/ff.png";
+import userImage3 from "../assets/images/nc.jpeg";
+import userImage4 from "../assets/images/ns.png";
+import userImage5 from "../assets/images/ab.jpeg";
+import userImage6 from "../assets/images/al.jpeg";
+import userImage7 from "../assets/images/kds.jpeg";
 
 export const users = [
     {

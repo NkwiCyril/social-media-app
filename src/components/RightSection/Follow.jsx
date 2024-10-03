@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import FollowItem from "./FollowItem";
-import users from "../../data/users";
+import { users } from "../../data/users";
 
 function Follow() {
   const [numberOfUsers, setNumberOfUsers] = useState(4);
