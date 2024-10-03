@@ -1,4 +1,4 @@
-import { getRandomDate } from "../lib/utils";
+import { getRandomDate } from "../func/utils";
 
 const hikeData = [
   {
