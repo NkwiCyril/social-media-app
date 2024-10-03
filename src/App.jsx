@@ -3,6 +3,7 @@ import LeftSection from "./layouts/LeftSection";
 import RightSection from "./layouts/RightSection";
 import CenterSection from "./layouts/CenterSection";
 import "./styles/index.css";
+import Footer from "./layouts/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <RightSection />
         </div>
       </div>
+      <Footer />
     </>
   );
 }

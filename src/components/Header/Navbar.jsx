@@ -9,6 +9,7 @@ import {
 import SearchInput from "./SearchInput";
 import IconButton from "../IconButton";
 import User from "../../assets/images/Chiron.jpg";
+import NavItem from "./NavItem";
 
 function Navbar() {
   return (
@@ -25,17 +26,14 @@ function Navbar() {
       </div>
 
       <div className="hidden md:flex items-center space-x-5">
-        <a href="/" className="text-gray-400 hover:text-accent">
-          Search
-        </a>
-        <a href="/" className="text-gray-400 hover:text-accent">
-          Pages
-        </a>
-        <a href="/" className="text-gray-400 hover:text-accent">
-          My Network
-        </a>
+        <NavItem content={"Search"} href={"/"} />
+        <NavItem content={"Pages"} href={"/"} />
+        <NavItem content={"My Network"} href={"/"} />
         <div className="relative">
-          <a href="/" className="text-gray-400 hover:text-accent flex items-center gap-1">
+          <a
+            href="/"
+            className="text-gray-400 hover:text-accent flex items-center gap-1"
+          >
             Account <FiChevronDown />
           </a>
         </div>

@@ -10,7 +10,7 @@ function LeftSection() {
     <>
       <Profile image={user} fullName={"Nkwi Cyril"} userName={"nkwicyril"} />
 
-      <ProfileDetails followers={"4k"} following={"900"} event={"81"} />
+      <ProfileDetails followers={"4k"} following={"900"} events={"81"} />
 
       <Menu />
     </>
