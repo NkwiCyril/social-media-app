@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="text-center my-2 font-serif text-sm">
+    <div className="text-center my-2 text-sm">
       <h6>
         Designed by{" "}
         <a
