@@ -1,6 +1,6 @@
 import React from "react";
 import NewsCard from "./NewsCard";
-import newsData from "../../data/newsData";
+import { newsData } from "../../data/data";
 
 function News() {
   const renderNews = newsData.map((item) => {

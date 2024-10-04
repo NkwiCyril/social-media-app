@@ -1,6 +1,6 @@
 import React from "react";
 import HikeCard from "../components/CenterSection/HikeCard";
-import hikeData from "../data/hikeData";
+import { hikeData } from "../data/data";
 
 function CenterSection() {
   const renderHikeData = hikeData.map((hike) => {

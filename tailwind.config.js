@@ -22,7 +22,7 @@ export default {
         background: "#131415",
         textColor: "#fff",
         btnBg: "#564c38"
-      },
+      }, 
     },
   },
   plugins: [

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import MenuItem from "./MenuItem";
 import PageItem from "./PageItem";
-import menuItems from "../../data/menuItems";
-import pageItems from "../../data/pageItems";
+import { menuItems } from "../../data/data";
+import { pageItems } from "../../data/data";
 
 function Menu() {
   const [activeItem, setActiveItem] = useState("Hikes");
@@ -10,9 +10,9 @@ function Menu() {
   const renderMenuItems = menuItems.map((menuItem, index) => {
     return (
       <MenuItem
-        icon={menuItem.icon}
+        icon={<menuItem.icon/>}
         name={menuItem.name}
-        notification={menuItem.notification}
+        // notification={menuItem.notification}
         key={index}
         isActive={activeItem === menuItem.name}
         onClick={() => setActiveItem(menuItem.name)}
